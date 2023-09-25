@@ -24,3 +24,9 @@ https://github.com/airbnb/javascript/tree/master/react
 ## fastapi BP
 
 https://github.com/zhanymkanov/fastapi-best-practices
+
+
+
+## Axios vs Fetch
+
+![Alt text](image.png)
