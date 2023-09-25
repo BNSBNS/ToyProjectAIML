@@ -21,3 +21,6 @@ npm run dev
 
 ## Some React/JS sampler - Airbnb
 https://github.com/airbnb/javascript/tree/master/react
+## fastapi BP
+
+https://github.com/zhanymkanov/fastapi-best-practices
