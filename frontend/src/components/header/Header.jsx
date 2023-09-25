@@ -7,9 +7,10 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import ComputerVision from '../computer-vision/computer-vision'
 import Home from "../home/Home";
 import Nlp from "../nlp/nlp";
+import About from "../about/About";
 
 const navigation = [
-    {name: "home", href: "/", current:true},
+    {name: "home", href: "/home", current:true},
     {name: "computer_vision", href: "/computer_vision", current:false},
     {name: "nlp", href: "/nlp", current:false},
 ]
@@ -20,7 +21,7 @@ const Header = () => {
       <div>
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand as={Link} to="/">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/home">React-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
@@ -36,7 +37,7 @@ const Header = () => {
 
         {/* Add your routes here */}
         <Routes>
-        <Route exact path="/" element={<Home/>}/ >
+        <Route exact path="/home" element={<div><Home/> <About /> </div>}/ >
             {/* Your home component */}
  
   
