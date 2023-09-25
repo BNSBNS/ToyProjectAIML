@@ -10,9 +10,9 @@ import Nlp from "../nlp/nlp";
 import About from "../about/About";
 
 const navigation = [
-    {name: "home", href: "/home", current:true},
-    {name: "computer_vision", href: "/computer_vision", current:false},
-    {name: "nlp", href: "/nlp", current:false},
+    {name: "HOME", href: "/home", current:true},
+    {name: "COMPUTER VISION", href: "/computer_vision", current:false},
+    {name: "NLP", href: "/nlp", current:false},
 ]
 
 const Header = () => {
