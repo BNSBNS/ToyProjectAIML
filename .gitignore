@@ -47,3 +47,8 @@ build/Release
 .node_repl_history
 *.tgz
 .yarn-integrity
+
+
+
+#any .env that may exist
+**/.env
