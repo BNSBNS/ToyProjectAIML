@@ -12,6 +12,10 @@ class Message(BaseModel):
     message: str
 
 
+class MyData(BaseModel):
+    temp: str
+
+
 origins = [
     "http://localhost",
     "http://localhost:5173",
@@ -52,3 +56,8 @@ async def computer_vision():
 @app.get("/nlp")
 async def nlp():
     return {"message": "ping pong"}
+
+
+@app.post("/my-endpoint")
+async def mock_endpoint(data: MyData):
+    return {"message": data.temp}
