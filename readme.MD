@@ -33,3 +33,9 @@ https://github.com/zhanymkanov/fastapi-best-practices
 ## Axios vs Fetch
 
 ![Alt text](image.png)
+
+
+
+## Github Actions
+
+https://www.edwardthomson.com/blog/github_actions_advent_calendar.html
