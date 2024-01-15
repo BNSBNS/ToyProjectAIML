@@ -52,3 +52,9 @@ build/Release
 
 #any .env that may exist
 **/.env
+
+
+
+
+# extra to delete stuff
+./tester
